@@ -57,6 +57,8 @@ background-image: repeating-linear-gradient(
    margin-bottom: 32px;
    margin-right: auto;
    margin-left: auto;
+   border-radius: 50%;
+   overflow: hidden;
 }
 
 .slick-dots li button {
@@ -71,6 +73,7 @@ color: transparent;
 border: 0;
 outline: none;
 background: transparent;
+margin-top: 16px;
 ;}
 
 .slick-dots li.slick-active button::before {
