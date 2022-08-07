@@ -1,0 +1,56 @@
+.reviews {
+width: 320px;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
+.reviews-text {
+    padding: 43px 58px 26px 65px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2.55;
+    text-align: center;
+    width: 280px;   
+    margin-bottom: 16px;
+}
+
+.reviews-photo{
+   margin-bottom: 32px;
+}
+
+.slick-dots li button {
+font-size: 0;
+line-height: 0;
+display: block;
+width: 20px;
+height: 20px;
+padding: 5px;
+cursor: pointer;
+color: transparent;
+border: 0;
+outline: none;
+background: transparent;
+;}
+
+.slick-dots li.slick-active button::before {
+font-family: 'slick';
+font-size: 6px;
+line-height: 20px;
+position: absolute;
+top: 0;
+left: 0;
+width: 20px;
+height: 20px;
+content: '•';
+text-align: center;
+opacity: .25;
+color: black;
+}
+    
+.reviews-title {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.86;
+text-align: center;
+}
