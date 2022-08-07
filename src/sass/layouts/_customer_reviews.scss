@@ -17,7 +17,7 @@ padding-right: 20px;
     margin-bottom: 16px;
     position: relative;
    
-}
+   }
 
 .reviews-text::before {
     content: "";
@@ -29,9 +29,28 @@ padding-right: 20px;
     position: absolute;
     top: 30px;
     left: 53px;
-   z-index: -1;
+    z-index: -1;
 
 }
+
+.reviews-text::after {
+background-image: repeating-linear-gradient(
+    to bottom,
+    #ffffff,
+    #ffffff 30px,
+    #E1E1E1 30px,
+    #E1E1E1 31px);
+    position: absolute;
+    top: 43px;
+    left: 53px;
+    content: "";
+    display: inline-block;
+    width: 180px;
+    height: 248px;
+    background-size: cover;
+    z-index: -2;
+}
+
 
 .reviews-photo{
    margin-bottom: 32px;
