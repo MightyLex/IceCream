@@ -17,14 +17,16 @@ padding-right: 20px;
 
 .reviews-photo{
    margin-bottom: 32px;
+   margin-right: auto;
+   margin-left: auto;
 }
 
 .slick-dots li button {
 font-size: 0;
 line-height: 0;
 display: block;
-width: 20px;
-height: 20px;
+width: 12px;
+height: 12px;
 padding: 5px;
 cursor: pointer;
 color: transparent;
@@ -53,4 +55,17 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.86;
 text-align: center;
+margin-bottom: 16px;
+}
+
+.reviews-title::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 4px;
+    background-size: cover;
+    background-image: url(../photo/dots.png);
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
