@@ -39,7 +39,8 @@ background-image: repeating-linear-gradient(
     #ffffff,
     #ffffff 30px,
     #E1E1E1 30px,
-    #E1E1E1 31px);
+    #E1E1E1 31px
+    );
     position: absolute;
     top: 43px;
     left: 53px;
@@ -47,7 +48,7 @@ background-image: repeating-linear-gradient(
     display: inline-block;
     width: 180px;
     height: 248px;
-    background-size: cover;
+    // background-size: cover;
     z-index: -2;
 }
 
