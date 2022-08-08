@@ -1,0 +1,79 @@
+.footer{
+    padding-top: 40px;
+    padding-bottom: 3px;
+    background-color: #FFF5F6;
+}
+
+.footer-title-1{
+    width: 232px;
+    margin-bottom: 16px;
+    font-family: 'Titan One';
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: #FFA5BA;
+}
+
+.footer-title-2{
+    width: 200px;
+    margin-bottom: 40px;
+    font-family: 'Titan One';
+    font-size: 34px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #D41443;
+}
+.footer-social-network{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 40px;
+} 
+
+
+.footer-social-network__icons:not(:last-child) {
+    margin-right: 28px;
+}
+
+
+.footer-social-network__elipse {
+    display: flex;
+    width: 34px;
+    height: 34px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    fill: #ffffff;
+    background-color: #FEA5BB;
+ }
+
+.footer-contact{
+    font-style: normal;
+   
+    margin-bottom: 40px;
+    font-weight: 700;
+    line-height: 1.83;
+    text-align: right;
+    color: #000000;
+    }
+
+.footer-tel{
+   color: #D41443;
+}
+
+.footer-copyright-box{
+    display: block;
+}
+
+.footer-copyright-box{
+    padding-top: 16px;
+    border-top: 1px solid #E1E1E1;
+}
+
+.footer-copyrights {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #907E82;
+ }
