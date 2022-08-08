@@ -7,8 +7,10 @@
       <path fill="#d41443" style="fill:var(--color2, #d41443)" d="M8.629 23.308c0 3.524 1.224 4.229 7.406 4.229s7.406-.705 7.406-4.229c0-1.538-.322-2.178-.966-2.178-.58 0-.966.577-.966 1.538 0 3.588-4.894 3.908-5.603.384-.322-1.858-.515-1.922-3.8-1.922H8.629v2.178zM12.622 30.548c.386 2.05 6.955 1.858 6.955-.128 0-.705-.837-.961-3.606-.961-3.027 0-3.542.192-3.349 1.089z"/>
     </symbol>
     <symbol id="icon-burger-menu" viewBox="0 0 46 32">
-      <path stroke-width="2.286" d="M0 2.286h45.714M0 16h45.714M0 29.714h45.714"/>
-    </symbol>
+<path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 2.286h45.714"></path>
+<path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 16h45.714"></path>
+<path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 29.714h45.714"></path>
+</symbol>
     <symbol id="icon-btn-arrow" viewBox="0 0 26 32">
       <path stroke-width="6.4" stroke-linecap="round" stroke-linejoin="round" d="M5.172 3.2 19.341 16 5.172 28.8"/>
     </symbol>
