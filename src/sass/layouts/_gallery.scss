@@ -57,3 +57,19 @@
 .gallery__img-top {
     padding-top: 5px;
 }
+
+.gallery__img {
+    transform: scale3d(1, 1, 1);
+    transition: transform var(--anim);
+    position: relative;
+
+    &-another {
+        margin-right: 50%;
+    }
+
+    &:hover,
+    &:focus {
+        transform: scale3d(1.5, 1.5, 2);
+        z-index: 1;
+    }
+}
