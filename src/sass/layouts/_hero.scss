@@ -1,0 +1,61 @@
+.hero {
+  position: relative;
+  background-color: rgba(255, 184, 202, 1);
+  padding-top: 136px;
+  padding-bottom: 158px;
+  overflow: hidden;
+}
+
+.hero__title {
+  font-family: 'Titan One';
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  max-width: 218px;
+  margin-bottom: 20px;
+  z-index: 3;
+}
+
+.hero__title--accent {
+  font-family: 'Titan One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 96.5%;
+  text-transform: uppercase;
+  color: #d41443;
+  z-index: 3;
+}
+
+.hero__btn-container {
+  display: flex;
+
+  & button:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+
+.hero-btn {
+  z-index: 3;
+}
+
+.hero__circle {
+  position: absolute;
+  bottom: 75px;
+  right: -62px;
+  width: 346px;
+  height: 344px;
+  border-radius: 50%;
+  background-color: #ffa5ba;
+}
+
+.hero__ice-cream {
+  min-width: 171px;
+  position: absolute;
+  bottom: 0;
+  right: 32px;
+  z-index: 2;
+}
