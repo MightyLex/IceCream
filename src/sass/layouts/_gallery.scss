@@ -13,18 +13,12 @@
 .gallery__list {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 
     @media screen and (max-width: 767px) {
         justify-content: space-between;
         display: none;
-    }
-    
-        // grid-gap: 2px;
-        // grid: repeat(12, auto)/repeat(28, auto);
-        // justify-content: center;
-        // display: grid;
- 
+    } 
 }
 
 .gallery__img-mob {
@@ -33,9 +27,33 @@
     }
 }
 
-.gallery__img {
-    transition: transform var(--transition);
-    position: relative;
-    transform: scale(1);
+// .gallery__img {
+//     transition: transform var(--anim);
+//     position: relative;
+//     transform: scale(1);
+// }
+
+.gallery__item-1 {
+    padding-top: 14%;
+
 }
 
+.gallery__item-2 {
+    padding-top: 9%;
+}
+
+.gallery__item-4 {
+    padding-top: 10%;
+}
+
+.gallery__item-5 {
+    padding-top: 7%;
+}
+
+.gallery__item-6 {
+    padding-top: 15%;
+}
+
+.gallery__img-top {
+    padding-top: 5px;
+}
