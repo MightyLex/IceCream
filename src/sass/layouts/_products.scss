@@ -1,0 +1,206 @@
+/* Style */
+.products__lable {
+  font-family: 'Titan One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.16;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: var(--text-color-pink);
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.53;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+}
+
+.products__title {
+  font-family: 'Titan One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.47;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+
+  color: var(--color-raspberry);
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+    line-height: 1.45;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 58px;
+    line-height:1.137;
+    letter-spacing: 0.06em;
+  }
+}
+
+.products__deck {
+  width: 100%;
+  border-radius: 24px;
+  padding-top: 140px;
+  padding-bottom: 40px;
+  @media screen and (min-width:768px) {
+    padding-top: 118px;
+  }
+  @media screen and (min-width:1200px) {
+    padding-top: 165px;
+    padding-bottom: 60px;
+  }
+}
+.products__deck--cream {
+  background-color: #ffb8ca;
+}
+
+.products__deck--coffe {
+  background-color: var(--bg-ice-coffee);
+}
+
+.products__deck--milk {
+  background-color: var(--bg-milkshakes);
+}
+
+.products__deck__title {
+  margin-bottom: 32px;
+  font-family: 'Titan One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  @media screen and (min-width:1200px) {
+    font-size: 30px;
+    line-height:1.13;
+  }
+
+}
+
+.products__deck__text {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.52;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  margin-bottom: 32px;
+
+  @media screen and (min-width:768px) {
+    padding-left: 32px;
+  padding-right: 32px;
+  }
+  @media screen and (min-width:1200px) {
+    padding-left: 63px;
+    padding-right: 63px;
+    margin-bottom: 60px;
+  }
+}
+
+.products__btn {
+  cursor: pointer;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: contain;
+
+}
+/* position */
+
+.products__item {
+  display: block;
+  position: relative;
+  min-width: 280px;
+  min-height: 629px;
+  @media screen and (min-width:768px) {
+    min-width: 224px;
+    min-height: 611px;
+  }
+  @media screen and (min-width:1200px){
+    min-width: 368px;
+    min-height: 796px;
+  }
+}
+.products__deck {
+  position: absolute;
+  bottom: 0;
+}
+
+.products__item--img {
+  position: absolute;
+  z-index: 10;
+}
+.products__deck__cyrcle {
+  margin-bottom: 32px;
+}
+
+/* сетка */
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media screen and (min-width:768px){
+    gap:16px;
+  }
+
+  @media screen and (min-width:1200px){
+    gap:32px;
+  }
+}
+
+card {
+}
+
+
+/* cyrcle */
+
+.cyrcle {
+  content: '';
+  position: relative;
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+}
+.cyrcle::before {
+  content: '';
+  position: absolute;
+  left: -16px;
+
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+}
+.cyrcle::after {
+  content: '';
+  position: absolute;
+  left: 16px;
+
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+}
+
