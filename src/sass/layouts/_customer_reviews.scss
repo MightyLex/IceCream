@@ -9,6 +9,13 @@ padding-left: 74px;
 padding-right: 74px;
 }
 
+@media screen and (min-width: 1200px) {
+width: 1200px;
+padding-left: 116px;
+padding-right: 116px;
+}
+
+
 }
 
 
@@ -20,7 +27,7 @@ padding-right: 74px;
     line-height: 2.55;
     text-align: center;
     width: 280px;   
-    // margin-bottom: 36px;
+   
     position: relative;
    
     @media screen and (min-width: 768px) {
@@ -30,6 +37,15 @@ padding-right: 74px;
     letter-spacing: 0.04em;
     width: 620px;
     }
+
+    @media screen and (min-width: 1200px) {
+    padding: 47px 109px 39px 109px;
+    font-size: 16px;
+    line-height: 1.86;
+    width: 968px;
+    }
+
+
    }
 
 .reviews-text::before {
@@ -49,6 +65,11 @@ padding-right: 74px;
     top: 20px;
     left: 2px;
     }
+
+    @media screen and (min-width: 1200px) {
+    width: 54px;
+    top: 32px;
+    left: 72px;}
 }
 
 .reviews-text::after {
@@ -76,6 +97,13 @@ background-image: repeating-linear-gradient(
     left: 53px;
     }
 
+    @media screen and (min-width: 1200px) {
+        width: 822px;
+        height: 75px;
+        top: 48px;
+        left: 72px;
+    }
+
 }
 
 
@@ -85,10 +113,14 @@ background-image: repeating-linear-gradient(
    margin-left: auto;
    border-radius: 50%;
    overflow: hidden;
+
 @media screen and (min-width: 768px) {
     margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1200px) {
+    margin-bottom: 16px;
+}
 }
 
 .slick-dots {
@@ -165,6 +197,16 @@ line-height: 1.86;
 text-align: center;
 margin-bottom: 16px;
 margin-top: 36px;
+
+@media screen and (min-width: 768px) {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1200px) {
+    font-size: 20px;
+    margin-bottom: 32px;
+}
 }
 
 .reviews-title::before {
