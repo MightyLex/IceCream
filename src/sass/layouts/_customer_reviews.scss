@@ -1,0 +1,235 @@
+.reviews {
+width: 320px;
+padding-left: 20px;
+padding-right: 20px;
+
+@media screen and (min-width: 768px) {
+width: 768px;
+padding-left: 74px;
+padding-right: 74px;
+}
+
+@media screen and (min-width: 1200px) {
+width: 1200px;
+padding-left: 116px;
+padding-right: 116px;
+}
+
+
+}
+
+
+
+.reviews-text {
+    padding: 43px 58px 26px 65px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2.55;
+    text-align: center;
+    width: 280px;   
+   
+    position: relative;
+   
+    @media screen and (min-width: 768px) {
+    padding: 37px 55px 44px 51px;
+    font-size: 14px;
+    line-height: 2.16;
+    letter-spacing: 0.04em;
+    width: 620px;
+    }
+
+    @media screen and (min-width: 1200px) {
+    padding: 47px 109px 39px 109px;
+    font-size: 16px;
+    line-height: 1.86;
+    width: 968px;
+    }
+
+
+   }
+
+.reviews-text::before {
+    content: "";
+    display: inline-block;
+    width: 54px;
+    height: 40px;
+    background-size: cover;
+    background-image: url(../images/customer_reviews/dots.svg);
+    position: absolute;
+    top: 30px;
+    left: 53px;
+    z-index: -1;
+
+    @media screen and (min-width: 768px) {
+    width: 60px;
+    top: 20px;
+    left: 2px;
+    }
+
+    @media screen and (min-width: 1200px) {
+    width: 54px;
+    top: 32px;
+    left: 72px;}
+}
+
+.reviews-text::after {
+background-image: repeating-linear-gradient(
+    to bottom,
+    #ffffff,
+    #ffffff 30px,
+    #E1E1E1 30px,
+    #E1E1E1 31px
+    );
+    position: absolute;
+    top: 43px;
+    left: 53px;
+    content: "";
+    display: inline-block;
+    width: 180px;
+    height: 248px;
+    // background-size: cover;
+    z-index: -2;
+
+    @media screen and (min-width: 768px) {
+    width: 620px;
+    height: 108px;
+    top: 38px;
+    left: 53px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 822px;
+        height: 75px;
+        top: 48px;
+        left: 72px;
+    }
+
+}
+
+
+.reviews-photo{
+   margin-bottom: 32px;
+   margin-right: auto;
+   margin-left: auto;
+   border-radius: 50%;
+   overflow: hidden;
+
+@media screen and (min-width: 768px) {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+    margin-bottom: 16px;
+}
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;}
+
+    .slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;}
+
+
+.slick-dots li button {
+font-size: 0;
+line-height: 0;
+display: block;
+width: 12px;
+height: 12px;
+padding: 5px;
+cursor: pointer;
+color: transparent;
+border: 0;
+outline: none;
+background: transparent;
+margin-top: 16px;
+;}
+
+.slick-dots li button::before {
+
+    font-family: 'slick';
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;}
+
+
+.slick-dots li.slick-active button::before {
+font-family: 'slick';
+font-size: 6px;
+line-height: 20px;
+position: absolute;
+top: 3px;
+left: 5px;
+width: 12px;
+height: 12px;
+content: '';
+background-image: url(../images/customer_reviews/Frame\ 1.svg);
+text-align: center;
+opacity: 1;
+color: black;
+}
+    
+.reviews-title {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.86;
+text-align: center;
+margin-bottom: 16px;
+margin-top: 12px;
+
+@media screen and (min-width: 768px) {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1200px) {
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+}
+
+.reviews-title::before {
+
+content: '';
+
+display: block;
+margin-bottom: 16px;
+margin-left: auto;
+margin-right: auto;
+width: 4px;
+height: 4px;
+border-radius: 50%;
+background: #C7133E;
+box-shadow: -20px 0 0 #C7133E, 20px 0 0 #C7133E;
+
+
+
+}
+
+// .reviews-sprite {
+//    display: flex;
+//     margin: 0 auto;
+//     fill:#C7133E;
+// }
+
