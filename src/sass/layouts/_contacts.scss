@@ -1,10 +1,17 @@
 .contacts {
   padding-top: 0;
   padding-bottom: 20px;
-  background: #fff5f6;
+  padding-top: 30px;
+  background-image: linear-gradient(to top, #fff5f6 80%, white 20%);
 
+  @media screen and (min-width: 768px) {
+    padding-top: 40px;
+    background-image: linear-gradient(to top, #fff5f6 50%, white 50%);
+  }
   @media screen and (min-width: 1200px) {
     padding-bottom: 60px;
+    padding-top: 60px;
+    background-image: linear-gradient(to top, #fff5f6 80%, white 20%);
   }
 }
 
@@ -29,6 +36,7 @@
 
   @media screen and (min-width: 768px) {
     width: calc((100% - 64px) / 3);
+    padding: 40px 30px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -181,15 +189,35 @@
   font-weight: 700;
   font-size: 16px;
   line-height: calc(21 / 16);
-  width: 161px;
+  padding-left: 17px;
+  padding-right: 17px;
+
   height: 44px;
   border: 0vh;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+
+  @media screen and (min-width: 768px) {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
 }
 .contacts__button:hover,
 .contacts__button:focus {
   background: #d41443;
   color: #ffffff;
+}
+
+.icon-arrow {
+  fill: var(--color-raspberry);
+}
+.contacts__button:hover .icon-arrow {
+  fill: var(--text-color-white);
+}
+.contacts__button:focus .icon-arrow {
+  fill: var(--text-color-white);
 }
 
 // backdrop
@@ -227,11 +255,14 @@
 
 .modal-close-btb {
   position: absolute;
+  top: 45px;
   right: 40px;
+  border: 0vh;
+  background: transparent;
 }
 
 .icon-close {
-  fill: grey;
+  fill: rgb(21, 21, 21);
   color: #ffffff;
 }
 
