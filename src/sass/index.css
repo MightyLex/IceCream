@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import '~node_modules/modern-normalize/modern-normalize.css';
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 12px;
   color: #000000;
 }
@@ -57,12 +57,16 @@ img {
 }
 @media screen and (min-width: 768px) {
   .container {
+    max-width: 768px;
+
     padding-left: 32px;
     padding-right: 32px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
+    max-width: 1200px;
+
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -91,7 +95,7 @@ img {
   padding: 0;
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   margin: -1px;
 }
 
@@ -123,7 +127,8 @@ img {
   color: #fff;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header__link:hover, .header__link:focus {
+.header__link:hover,
+.header__link:focus {
   color: #d41443;
 }
 
@@ -180,4 +185,4 @@ img {
 .about__milk {
   width: 463px;
   margin-left: 99px;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
