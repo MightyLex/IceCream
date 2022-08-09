@@ -37,7 +37,7 @@
   }
   @media screen and (min-width: 1200px) {
     font-size: 58px;
-    line-height:1.137;
+    line-height: 1.137;
     letter-spacing: 0.06em;
   }
 }
@@ -47,10 +47,10 @@
   border-radius: 24px;
   padding-top: 140px;
   padding-bottom: 40px;
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
     padding-top: 118px;
   }
-  @media screen and (min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     padding-top: 165px;
     padding-bottom: 60px;
   }
@@ -79,11 +79,10 @@
   text-transform: uppercase;
   color: #ffffff;
 
-  @media screen and (min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     font-size: 30px;
-    line-height:1.13;
+    line-height: 1.13;
   }
-
 }
 
 .products__deck__text {
@@ -99,11 +98,11 @@
   color: #ffffff;
   margin-bottom: 32px;
 
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
     padding-left: 32px;
-  padding-right: 32px;
+    padding-right: 32px;
   }
-  @media screen and (min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     padding-left: 63px;
     padding-right: 63px;
     margin-bottom: 60px;
@@ -121,11 +120,10 @@
   object-fit: contain;
   padding: 0;
 }
-.btn-arrow{
+.btn-arrow {
   max-width: 40px;
   max-height: 40px;
 }
-
 
 /* position */
 
@@ -134,11 +132,11 @@
   position: relative;
   min-width: 280px;
   min-height: 629px;
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
     min-width: 224px;
     min-height: 611px;
   }
-  @media screen and (min-width:1200px){
+  @media screen and (min-width: 1200px) {
     min-width: 368px;
     min-height: 796px;
   }
@@ -161,19 +159,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  @media screen and (min-width:768px){
-    gap:16px;
+
+  padding-left: 0px;
+
+  @media screen and (min-width: 768px) {
+    gap: 16px;
     padding: 0;
   }
 
-  @media screen and (min-width:1200px){
-    gap:32px;
+  @media screen and (min-width: 1200px) {
+    gap: 32px;
     padding: 0;
   }
 }
-
-
-
 
 /* cyrcle */
 
@@ -212,5 +210,3 @@
 }
 
 // animation
-
-
