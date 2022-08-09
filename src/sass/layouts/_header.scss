@@ -3,9 +3,17 @@
   justify-content: space-between;
   align-items: center;
 
-  padding-top: 37px;
+  padding-top: 8px;
 
   background-color: var(--bg-color-header);
+
+  @media screen and (min-width: 768px) {
+    padding-top: 32px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 37px;
+  }
 }
 
 .header__logo {
