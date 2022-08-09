@@ -43,25 +43,6 @@
   }
 }
 
-.header__button {
-  display: none;
-
-  @media screen and (min-width: 768px) {
-    display: block;
-    padding: 11.5px 37px;
-
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 21px;
-
-    border: none;
-    border-radius: 22px;
-
-    color: #d41443;
-  }
-}
-
 .header__button--show {
   display: block;
   padding: 11.5px 37px;
@@ -77,8 +58,4 @@
   border-radius: 22px;
 
   color: #d41443;
-}
-
-.button__img {
-  margin-left: 10px;
 }

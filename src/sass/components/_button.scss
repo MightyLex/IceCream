@@ -1,0 +1,122 @@
+.button {
+  display: block;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+
+  //   font-weight: 400;
+  //   font-size: 8px;
+  //   line-height: 1.25;
+
+  cursor: pointer;
+
+  border: none;
+  border-radius: 22px;
+
+  //   transition: color var(--anim-slow), background-color var(--anim-fast);
+
+  //   &:hover,
+  //   &:focus {
+  //     background-color: var(--accent-txt-cl);
+  //     color: var(--main-dark-theme);
+  //   }
+
+  &--mode-light {
+    color: var(--color-raspberry);
+    background-color: #ffffff;
+  }
+
+  &--mode-raspberry {
+    color: var(--text-color-white);
+    background-color: var(--color-raspberry);
+  }
+  @media screen and (min-width: 1200px) {
+    &:hover,
+    &:focus {
+      background-color: #ecebeb;
+    }
+  }
+}
+.button__img {
+  margin-left: 10px;
+}
+
+.button__img--light {
+  fill: #ffffff;
+}
+.header__button {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    padding: 11.5px 37px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+  }
+}
+
+.hero-btn {
+  padding: 7px 15px;
+
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+
+  @media screen and (min-width: 1200px) {
+    padding: 11px 23px;
+
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}
+
+.hero__btn-container {
+  display: flex;
+  gap: 8px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 40px;
+    gap: 12px;
+  }
+}
+
+.about-btn {
+  display: block;
+  padding: 16px 37px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.29;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: 1.31;
+  }
+
+  @media screen and (min-width: 1200px) {
+    &:hover,
+    &:focus {
+      background-color: #ecebeb;
+    }
+  }
+}
+
+.contacts__button {
+  padding: 11.5px 17px;
+
+  border: 0vh;
+}
+.contacts__button:hover,
+.contacts__button:focus {
+  background: #d41443;
+  color: #ffffff;
+}
+.contacts__button--sec {
+  padding: 11.5px 32px;
+}
