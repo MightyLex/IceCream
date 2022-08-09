@@ -1,3 +1,4 @@
+
 .reviews {
 width: 320px;
 padding-left: 20px;
@@ -13,6 +14,8 @@ padding-right: 74px;
 width: 1200px;
 padding-left: 116px;
 padding-right: 116px;
+padding-top: 60px;
+padding-bottom: 60px;
 }
 
 
@@ -26,7 +29,9 @@ padding-right: 116px;
     font-size: 12px;
     line-height: 2.55;
     text-align: center;
-    width: 280px;   
+    width: 280px;  
+    background-color: #FAFAFA;
+    z-index: -2;
    
     position: relative;
    
@@ -36,6 +41,7 @@ padding-right: 116px;
     line-height: 2.16;
     letter-spacing: 0.04em;
     width: 620px;
+    
     }
 
     @media screen and (min-width: 1200px) {
@@ -43,6 +49,7 @@ padding-right: 116px;
     font-size: 16px;
     line-height: 1.86;
     width: 968px;
+    
     }
 
 
@@ -87,11 +94,10 @@ background-image: repeating-linear-gradient(
     display: inline-block;
     width: 180px;
     height: 248px;
-    // background-size: cover;
     z-index: -2;
 
     @media screen and (min-width: 768px) {
-    width: 620px;
+    width: 608px;
     height: 108px;
     top: 38px;
     left: 53px;
@@ -227,9 +233,4 @@ box-shadow: -20px 0 0 #C7133E, 20px 0 0 #C7133E;
 
 }
 
-// .reviews-sprite {
-//    display: flex;
-//     margin: 0 auto;
-//     fill:#C7133E;
-// }
 
