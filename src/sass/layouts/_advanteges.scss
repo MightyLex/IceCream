@@ -1,0 +1,144 @@
+.advant__wrapper {
+  background-color: var(--bg-about-advantages);
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 30px;
+  }
+}
+
+.advant__list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+  }
+
+  @media screen and (min-width: 768px) {
+    gap: 110px;
+  }
+}
+
+.advant__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.advant__text {
+  display: block;
+  margin-bottom: 25px;
+
+  font-family: 'Titan One';
+  font-size: 36px;
+  line-height: 1.14;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: var(--color-raspberry);
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 13px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 16px;
+  }
+}
+
+.advant__item--first::before {
+  display: block;
+  content: '';
+  width: 33px;
+  height: 50px;
+  margin-bottom: 16px;
+
+  background-image: url(../images/advantages/advant-1.png);
+
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    background-image: url(../images/advantages/advan-1@2x.png);
+  }
+  @media screen and (min-width: 768px) {
+    margin-bottom: 36px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}
+
+.advant__item--second::before {
+  display: block;
+  content: '';
+  width: 50px;
+  height: 50px;
+  margin-bottom: 16px;
+
+  background-image: url(../images/advantages/advant-2.png);
+
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    background-image: url(../images/advantages/advant-2@2x.png);
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 36px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}
+
+.advant__item--third::before {
+  display: block;
+  content: '';
+  width: 50px;
+  height: 50px;
+  margin-bottom: 16px;
+
+  background-image: url(../images/advantages/advant-3.png);
+
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    background-image: url(../images/advantages/advant-3@2x.png);
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 36px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}
+
+.advant__desc {
+  width: 230px;
+
+  font-weight: 700;
+  line-height: 1.7;
+
+  color: var(--text-color-black);
+
+  @media screen and (min-width: 768px) {
+    width: 164px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 288px;
+  }
+}
