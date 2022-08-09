@@ -210,6 +210,16 @@
   color: #ffffff;
 }
 
+.icon-arrow {
+  fill: var(--color-raspberry);
+}
+.contacts__button:hover .icon-arrow {
+  fill: var(--text-color-white);
+}
+.contacts__button:focus .icon-arrow {
+  fill: var(--text-color-white);
+}
+
 // backdrop
 
 .backdrop {
@@ -249,13 +259,6 @@
   right: 40px;
   border: 0vh;
   background: transparent;
-}
-
-.icon-arrow {
-  fill: var(--color-raspberry);
-}
-.icon-arrow:hover {
-  fill: var(--text-color-white);
 }
 
 .icon-close {
