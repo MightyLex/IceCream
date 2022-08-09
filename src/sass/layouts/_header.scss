@@ -1,11 +1,11 @@
-.header {
+.header-thumb {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  position: absolute;
+  padding-top: 37px;
 
-  background-color: #ffb8ca;
+  background-color: var(--bg-color-header);
 }
 
 .header__logo {

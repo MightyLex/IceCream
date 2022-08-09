@@ -28,13 +28,13 @@
   }
 }
 
-// .mobile-menu-close {
-//   width: 18px;
-//   height: 18px;
+.mobile-menu-close {
+  width: 18px;
+  height: 18px;
 
-//   opacity: 0;
+  opacity: 0;
 
-//   .mobile-menu-btn.is-open & {
-//     opacity: 1;
-//   }
-// }
+  .mobile-menu-btn.is-open & {
+    opacity: 1;
+  }
+}
