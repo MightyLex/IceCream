@@ -109,7 +109,7 @@
     margin-bottom: 60px;
   }
 }
-
+// button
 .products__btn {
   cursor: pointer;
   border: none;
@@ -119,8 +119,14 @@
   height: 40px;
   border-radius: 50%;
   object-fit: contain;
-
+  padding: 0;
 }
+.btn-arrow{
+  max-width: 40px;
+  max-height: 40px;
+}
+
+
 /* position */
 
 .products__item {
@@ -157,15 +163,16 @@
   justify-content: center;
   @media screen and (min-width:768px){
     gap:16px;
+    padding: 0;
   }
 
   @media screen and (min-width:1200px){
     gap:32px;
+    padding: 0;
   }
 }
 
-card {
-}
+
 
 
 /* cyrcle */
