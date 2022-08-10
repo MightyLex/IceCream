@@ -1,15 +1,29 @@
 .about {
   background-color: var(--bg-about-advantages);
+  padding-top: 60px;
+  padding-bottom: 20px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about__label {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .about__label {
+  padding-bottom: 20px;
   font-family: 'Titan One';
   font-size: 18px;
   text-transform: uppercase;
   line-height: 1.16;
   text-align: center;
   color: var(--text-color-pink);
-  padding-top: 60px;
   margin-bottom: 15px;
 }
 
@@ -18,7 +32,6 @@
     font-size: 26px;
     line-height: 1.15;
     margin-bottom: 16px;
-    padding-top: 60px;
   }
 }
 
@@ -28,7 +41,6 @@
     line-height: 1.13;
     letter-spacing: 0.04em;
     margin-bottom: 16px;
-    padding-top: 60px;
   }
 }
 
@@ -215,12 +227,12 @@
   }
 }
 
-.about__btn {
-  margin-bottom: 40px;
-}
+// .about__btn {
+//   margin-bottom: 40px;
+// }
 
-@media screen and (min-width: 768px) {
-  .about__btn {
-    margin-left: 32px;
-  }
-}
+// @media screen and (min-width: 768px) {
+//   .about__btn {
+//     margin-left: 32px;
+//   }
+// }
