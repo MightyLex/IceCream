@@ -64,11 +64,7 @@
 }
 
 .hero__btn-container {
-  margin-bottom: 20px;
   z-index: 3;
-  & button:not(:last-child) {
-    margin-right: 8px;
-  }
 }
 
 .hero-btn {
