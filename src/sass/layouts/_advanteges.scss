@@ -6,6 +6,11 @@
   @media screen and (min-width: 768px) {
     padding-top: 30px;
   }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .advant__list {
@@ -15,13 +20,17 @@
     gap: 22px;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     gap: 110px;
   }
 }
 
 .advant__item:not(:last-child) {
   margin-bottom: 32px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0px;
+  }
 }
 
 .advant__text {
@@ -138,7 +147,7 @@
   @media screen and (min-width: 768px) {
     width: 164px;
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     width: 288px;
   }
 }
