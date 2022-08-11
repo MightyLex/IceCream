@@ -199,12 +199,14 @@
   z-index: 1;
 }
 .dropdown-content a {
-  color: var(--color-raspberry);
+  color: var(--text-color-pink);
   padding: 10px 10px;
   text-decoration: none;
   display: block;
 }
-
+a:hover {
+  color: var(--color-raspberry);
+}
 .dropdown:hover .dropdown-content {
   display: block;
 }
