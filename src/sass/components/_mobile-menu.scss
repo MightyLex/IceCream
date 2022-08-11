@@ -1,7 +1,7 @@
 .mobile-menu {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
 
   transform: translateX(100%);
 
@@ -16,8 +16,16 @@
 
   transition: transform var(--anim);
 
+  @media screen and (min-width: 768px) {
+    width: 254px;
+  }
+
   &.is-open {
     transform: translateX(0);
+
+    @media screen and (min-width: 768px) {
+      max-width: 254px;
+    }
   }
 }
 

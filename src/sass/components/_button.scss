@@ -51,6 +51,33 @@
   }
 }
 
+.header__button--show {
+  display: block;
+  padding: 11.5px 37px;
+  margin: 0 auto;
+
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+
+  border: none;
+  border-radius: 22px;
+
+  color: #d41443;
+
+  min-width: 210px;
+
+  @media screen and (min-width: 768px) {
+    margin: 0 auto;
+  }
+}
+
+.btn-thumb {
+  margin-top: 60px;
+  margin-bottom: 19px;
+}
+
 .hero-btn {
   padding: 7px 15px;
 
