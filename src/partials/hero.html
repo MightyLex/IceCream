@@ -62,7 +62,10 @@
         <li class="mobile-menu-item"><a class="mobile-menu-link link" href="#">Contact</a></li>
       </ul>
 </header>
-<section class="hero container">
+
+<!-- h e r o  -->
+<section class="hero ">
+  <div class="hero__top-pos container">
   <h1 class="hero__title">
     ice cream made with <span class="hero__title--accent">passion</span>
   </h1>
@@ -75,7 +78,7 @@
     </button>
   </div>
   <div class="hero__circle"></div>
-  <div class="hero__ice-cream">
+  <div class="hero__ice-cream animate__animated animate__tada">
     <picture>
       <source
         media="(min-width: 1200px)"
@@ -104,7 +107,7 @@
       <img
         src="./images/hero/mobile/ice-cream.png"
         alt="Мороженое"
-        max-width="236"
+        
       />
     </picture>
   </div>
@@ -129,7 +132,7 @@
       <img
         src="./images/hero/desktop/milk.png"
         alt="Натуральное молоко"
-        max-width="213"
+        
       />
     </picture>
     <div class="hero__text-container">
@@ -141,52 +144,58 @@
     </div>
   </div>
   <div class="stats">
-    <picture class="cafe-stats">
+    <div class="stats__cafe-pos">
+      <p class="cafe-text"> <span class="cafe-count">16</span>  <br>  cafes </p>
+      <picture class="cafe-ellips">
+        <source
+          media="(min-width: 1200px)"
+          srcset="
+            ./images/hero/desktop/ellipse-desktop.png    1x,
+            ./images/hero/desktop/ellipse-desktop@2x.png 2x
+          "
+          type="image/png"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./images/hero/tablet/ellipse-tablet.png    1x,
+            ./images/hero/tablet/ellipse-tablet@2x.png 2x
+          "
+          type="image/png"
+        />
+        <img
+          src="./images/hero/desktop/ellipse-desktop.png"
+          alt="кружок"
+          
+        />
+      </picture>
+    </div>
+    <div class="stats__trucks-pos">
+    <p class="trucks-text"> <span class="trucks-count">23</span> <br> food trucks </p>
+    <picture class="truck-ellips">
       <source
         media="(min-width: 1200px)"
         srcset="
-          ./images/hero/desktop/16.png    1x,
-          ./images/hero/desktop/16@2x.png 2x
+          ./images/hero/desktop/ellipse-desktop.png    1x,
+          ./images/hero/desktop/ellipse-desktop@2x.png 2x
         "
         type="image/png"
       />
       <source
         media="(min-width: 768px)"
         srcset="
-          ./images/hero/tablet/16.png    1x,
-          ./images/hero/tablet/16@2x.png 2x
+          ./images/hero/tablet/ellipse-tablet.png    1x,
+          ./images/hero/tablet/ellipse-tablet@2x.png 2x
         "
         type="image/png"
       />
       <img
-        src="./images/hero/desktop/16.png"
-        alt="Количество наших кафе"
-        max-width="213"
+        src="./images/hero/desktop/ellipse-desktop.png"
+        alt="Кружок"
+        
       />
     </picture>
-    <picture class="truck-stats">
-      <source
-        media="(min-width: 1200px)"
-        srcset="
-          ./images/hero/desktop/23.png    1x,
-          ./images/hero/desktop/23@2x.png 2x
-        "
-        type="image/png"
-      />
-      <source
-        media="(min-width: 768px)"
-        srcset="
-          ./images/hero/tablet/23.png    1x,
-          ./images/hero/tablet/23@2x.png 2x
-        "
-        type="image/png"
-      />
-      <img
-        src="./images/hero/desktop/23.png"
-        alt="Количество закусочных на колесах"
-        max-width="213"
-      />
-    </picture>
+  </div>
   </div>
   <div class="hero__tasty">
     <picture>
@@ -208,9 +217,10 @@
       />
       <img
         src="./images/hero/desktop/so-tasty.png"
-        alt="Количество закусочных на колесах"
-        max-width="213"
+        alt="Очень вкусное мороженное"
+        
       />
     </picture>
+  </div>
   </div>  
 </section>
