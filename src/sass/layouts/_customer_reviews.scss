@@ -1,9 +1,9 @@
 .reviews {
   width: 320px;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-bottom: 30px;
   padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 
   @media screen and (min-width: 768px) {
     width: 768px;
