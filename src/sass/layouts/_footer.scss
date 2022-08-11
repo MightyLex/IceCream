@@ -1,9 +1,12 @@
+.footer-section{
+   background-color: var(--bg-about-advantages);
+}
 
 // extra setting for footer`s container
 .container--footer{
     padding-top: 20px;
     padding-bottom: 3px;
-    background-color: var(--bg-about-advantages);   
+    
 
 @media screen and (min-width: 768px) {
     padding-left: 20px;
@@ -13,6 +16,8 @@
 @media screen and (min-width: 1200px) {
     padding-top: 60px;
     padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 }
 
