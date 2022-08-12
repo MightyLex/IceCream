@@ -51,6 +51,33 @@
   }
 }
 
+.header__button--show {
+  display: block;
+  padding: 11.5px 37px;
+  margin: 0 auto;
+
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+
+  border: none;
+  border-radius: 22px;
+
+  color: #d41443;
+
+  min-width: 210px;
+
+  @media screen and (min-width: 768px) {
+    margin: 0 auto;
+  }
+}
+
+.btn-thumb {
+  margin-top: 60px;
+  margin-bottom: 19px;
+}
+
 .hero-btn {
   padding: 7px 15px;
 
@@ -88,6 +115,7 @@
   transition: color var(--anim), background-color var(--anim);
 
   @media screen and (min-width: 768px) {
+    margin-left: 32px;
     font-size: 16px;
     line-height: 1.31;
   }
@@ -118,4 +146,47 @@
 
 .contacts__button--sec {
   padding: 11.5px 37px;
+}
+
+// scroll to top button
+
+.back-to-top {
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    border-radius: 100%;
+    background: #d41443;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    opacity: 100%;
+    transition: opacity 0.5s;
+    z-index: 1000;
+  }
+}
+
+.back-to-top:hover {
+  opacity: 60%;
+}
+
+.hidden {
+  opacity: 0%;
+}
+
+.back-to-top-icon {
+  width: 1rem;
+  height: 1rem;
+  color: #ffffff;
+}
+
+.progress-bar {
+  height: 1rem;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
 }

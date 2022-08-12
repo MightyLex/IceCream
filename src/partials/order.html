@@ -1,0 +1,45 @@
+<!-- Modal window -->
+<div class="backdrop is-hidden" modal>
+    <div class="modal-order">
+        <button class="modal-order__close-btn" type="button" modal-close><svg class="close-btn" width="18" height="18">
+                <use href="./images/sprite/icons.svg#icon-close"></use>
+            </svg></button>
+
+        <form>
+            <div role="group" class="modal-order-form">
+                <p class="modal-order-form__title">Leave your order</p>
+
+                <label class="form-group">
+                    <span class="form-group__label">Name</span>
+                    <input class="form-group__input" type="text" name="name">
+                    <svg class="form-group__icon" width="18" height="18">
+                        <use href="./images/sprite/icons.svg#person"></use>
+                    </svg>
+                </label>
+
+                <label class="form-group">
+                    <span class="form-group__label">Telephone</span>
+                    <input class="form-group__input" type="tel" name="tel">
+                    <svg class="form-group__icon" width="18" height="18">
+                        <use href="./images/sprite/icons.svg#phone"></use>
+                    </svg>
+                </label>
+
+                <label class="form-group">
+                    <span class="form-group__label">E-mail</span>
+                    <input class="form-group__input" type="email" name="email">
+                    <svg class="form-group__icon" width="18" height="18">
+                        <use href="./images/sprite/icons.svg#email"></use>
+                    </svg>
+                </label>
+
+                <label class="form-group">
+                    <span class="form-group__label">Comments</span>
+                    <textarea class="form-group__textarea" name="comment" placeholder="Enter the text"></textarea>
+                </label>
+                <button class="button button--mode-light header__button modal__btn" type="submit">Order
+                    IceCream</button>
+            </div>
+        </form>
+    </div>
+</div>

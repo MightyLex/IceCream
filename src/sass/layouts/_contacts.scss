@@ -151,6 +151,8 @@
 }
 
 .contacts__link {
+  display: flex;
+  flex-direction: column;
   color: var(--text-color-grey);
   line-height: calc(18 / 12);
   letter-spacing: 0.04em;
@@ -180,46 +182,34 @@
     justify-content: center;
   }
 }
-.contacts__button {
-  background: #ffffff;
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  background-color: var(--text-color-white);
+  min-width: 170px;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 22px;
-  align-items: center;
-  text-align: center;
-  color: #d41443;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(21 / 16);
-  padding-left: 17px;
-  padding-right: 17px;
-
-  height: 44px;
-  border: 0vh;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  gap: 13px;
-
-  @media screen and (min-width: 768px) {
-    padding-left: 35px;
-    padding-right: 35px;
-  }
+  z-index: 1;
 }
-.contacts__button:hover,
-.contacts__button:focus {
-  background: #d41443;
-  color: #ffffff;
+.dropdown-content a {
+  color: var(--text-color-pink);
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
 }
-
-.icon-arrow {
-  fill: var(--color-raspberry);
+a:hover {
+  color: var(--color-raspberry);
 }
-.contacts__button:hover .icon-arrow {
-  fill: var(--text-color-white);
+.dropdown:hover .dropdown-content {
+  display: block;
 }
-.contacts__button:focus .icon-arrow {
-  fill: var(--text-color-white);
-}
-
 // backdrop
 
 .backdrop {
@@ -230,6 +220,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
+  z-index: 1000;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
