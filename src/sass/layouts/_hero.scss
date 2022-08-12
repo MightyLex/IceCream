@@ -1,3 +1,7 @@
+.header {
+  background-color: var(--bg-color-header);
+}
+
 .header-thumb {
   display: flex;
   justify-content: space-between;
@@ -5,8 +9,6 @@
   position: relative;
 
   padding-top: 8px;
-
-  background-color: var(--bg-color-header);
 
   @media screen and (min-width: 768px) {
     padding-top: 32px;
@@ -51,8 +53,12 @@
 // H E R O
 
 .hero {
-  position: relative;
   background-color: var(--bg-color-header);
+}
+
+.hero__top-pos {
+  width: 100%;
+  position: relative;
   padding-top: 136px;
   padding-bottom: 158px;
   overflow: hidden;
@@ -122,9 +128,7 @@
 
 .hero__circle {
   position: absolute;
-  // bottom: 75px;
   right: -62px;
-  // left: 36px;
   top: 25px;
   width: 346px;
   height: 344px;
@@ -133,7 +137,6 @@
 
   @media screen and (min-width: 768px) {
     left: 248px;
-    // bottom: 40px;
     top: -39px;
     width: 335px;
     height: 333px;
@@ -149,18 +152,18 @@
 
 .hero__ice-cream {
   position: absolute;
-  min-width: 171px;
+  width: 171px;
   bottom: 0;
   right: 32px;
   z-index: 2;
 
   @media screen and (min-width: 768px) {
     left: 322px;
-    min-width: 143px;
+    width: 143px;
   }
 
   @media screen and (min-width: 1200px) {
-    min-width: 236px;
+    width: 236px;
     left: 636px;
   }
 }
@@ -202,8 +205,9 @@
   height: 18px;
   border-radius: 50%;
   border-color: transparent;
-  padding: 0%;
+  padding: 0;
   border: 0;
+
   @media screen and (min-width: 1200px) {
     width: 26px;
     height: 26px;
@@ -220,18 +224,124 @@
     position: absolute;
     top: 10px;
     right: 32px;
+  }
 
-    & picture:not(:last-child) {
-      margin-bottom: 16px;
-    }
+  @media screen and(min-width: 1200px) {
+    top: 65px;
+  }
+}
 
-    @media screen and (min-width: 1200px) {
-      & picture:not(:last-child) {
-        right: 24px;
-        top: 65px;
-        margin-bottom: 15px;
-      }
-    }
+.stats__cafe-pos {
+  position: relative;
+  padding-top: 2px;
+  padding-right: 10px;
+  margin-bottom: 16px;
+
+  @media screen and(min-width: 1200px) {
+    padding-top: 4px;
+    padding-right: 16px;
+    margin-bottom: 15px;
+  }
+}
+
+.cafe-text {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+  text-align: right;
+  color: var(--text-color-white);
+
+  @media screen and(min-width: 1200px) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.cafe-count {
+  font-family: 'Titan One';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.14;
+  text-align: right;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-raspberry);
+  position: relative;
+  z-index: 1;
+
+  @media screen and(min-width: 1200px) {
+    font-size: 46px;
+    line-height: 1.15;
+  }
+}
+
+.stats__trucks-pos {
+  position: relative;
+  padding-top: 2px;
+  padding-right: 10px;
+
+  @media screen and(min-width: 1200px) {
+    padding-top: 4px;
+    padding-right: 16px;
+  }
+}
+
+.cafe-ellips {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 0;
+  top: 0;
+
+  @media screen and(min-width: 1200px) {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.trucks-text {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+  text-align: right;
+  color: var(--text-color-white);
+
+  @media screen and(min-width: 1200px) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.trucks-count {
+  font-family: 'Titan One';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 31.142px;
+  text-align: right;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-raspberry);
+  z-index: 1;
+  position: relative;
+
+  @media screen and(min-width: 1200px) {
+    font-size: 46px;
+    line-height: 1.15;
+  }
+}
+
+.truck-ellips {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 0;
+  top: 0px;
+
+  @media screen and(min-width: 1200px) {
+    width: 30px;
+    height: 30px;
   }
 }
 
