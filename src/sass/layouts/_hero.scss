@@ -207,6 +207,11 @@
   border-color: transparent;
   padding: 0;
   border: 0;
+  cursor: pointer;
+
+  transform: rotate(0deg);
+
+  transition: transform var(--anim);
 
   @media screen and (min-width: 1200px) {
     width: 26px;
@@ -354,4 +359,22 @@
     bottom: 1px;
     right: 32px;
   }
+}
+
+details {
+  transition: all var(--anim);
+  max-height: 20px;
+  z-index: 100;
+}
+
+summary {
+  list-style: none;
+}
+
+details[open] .hero-arrow {
+  transform: rotate(90deg);
+}
+
+details[open] {
+  max-height: 500px;
 }
